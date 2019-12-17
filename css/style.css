@@ -18877,16 +18877,23 @@ fieldset[disabled] .btn-primary {
 }
 
 .btn-primary-transparent {
-	color:  #f1147094;;
+	color:  #f1147094;
 	background-color: transparent;
 	border-color:  #f1147094;;
 }
 
-.btn-primary-transparent:focus, .btn-primary-transparent.focus, .btn-primary-transparent:hover, .btn-primary-transparent:active, .btn-primary-transparent.active,
+/*.btn-primary-transparent:focus, .btn-primary-transparent.focus, .btn-primary-transparent:hover, .btn-primary-transparent:active, .btn-primary-transparent.active,
 .open > .btn-primary-transparent.dropdown-toggle {
 	color: #ffffff;
 	background-color: #3eb2cf;
 	border-color: #3eb2cf;
+}*/
+
+.btn-primary-transparent:focus, .btn-primary-transparent.focus, .btn-primary-transparent:hover, .btn-primary-transparent:active, .btn-primary-transparent.active,
+.open > .btn-primary-transparent.dropdown-toggle {
+	color: #ffffff;
+	background-color: #f1147094;
+	border-color: #f1147094;
 }
 
 .btn-primary-transparent:active, .btn-primary-transparent.active,
